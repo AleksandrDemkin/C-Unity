@@ -33,8 +33,8 @@ namespace RollABall.ExceptionOne
 
             try
             {
-                for (var i = 0; i < _interactiveObject.Lenght; i++)
-                //for (var i = 0; i < _interactiveObject.Count; i++)
+                // for (var i = 0; i < _interactiveObject.Lenght; i++)
+                for (var i = 0; i < _interactiveObject.Count; i++)
                 {
                     var interactiveObject = _interactiveObject[i];
                     if (interactiveObject == null)
